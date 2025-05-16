@@ -7,7 +7,7 @@
             "department": "IT",
             "email": "andi.saputra@example.com",
             "salary": 8500000,
-            "photoUrl": "https://i.pravatar.cc/150?img=1"
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/80.jpg"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "department": "IT",
             "email": "budi.hartono@example.com",
             "salary": 12000000,
-            "photoUrl": "https://i.pravatar.cc/150?img=2"
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/92.jpg"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "department": "Human Resources",
             "email": "citra.dewi@example.com",
             "salary": 7000000,
-            "photoUrl": "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg"
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/125.jpg"
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "department": "Marketing",
             "email": "dian.purnama@example.com",
             "salary": 6500000,
-            "photoUrl": "https://i.pravatar.cc/150?img=4"
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/112.jpg"
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "department": "Finance",
             "email": "eka.pratama@example.com",
             "salary": 9000000,
-            "photoUrl": "https://i.pravatar.cc/150?img=5"
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/128.jpg"
         }
     ]
 }

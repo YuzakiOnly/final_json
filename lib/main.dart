@@ -61,7 +61,7 @@ class _MyAppState extends State<MyApp> {
                   }
 
                   Profile profileWithId = result!.profile!.firstWhere(
-                    (profile) => profile.id == 3,
+                    (profile) => profile.id == 2,
                     orElse: () => result!.profile!.first,
                   );
 
@@ -137,6 +137,7 @@ class CardUtama extends StatelessWidget {
                       padding: const EdgeInsets.all(8),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
+                        
                       ),
                     ),
                   ),

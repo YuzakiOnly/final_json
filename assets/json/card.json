@@ -1,0 +1,50 @@
+{
+    "profile": [
+        {
+            "id": 1,
+            "name": "Andi Saputra",
+            "position": "Software Engineer",
+            "department": "IT",
+            "email": "andi.saputra@example.com",
+            "salary": 8500000,
+            "photoUrl": "https://i.pravatar.cc/150?img=1"
+        },
+        {
+            "id": 2,
+            "name": "Budi Hartono",
+            "position": "Project Manager",
+            "department": "IT",
+            "email": "budi.hartono@example.com",
+            "salary": 12000000,
+            "photoUrl": "https://i.pravatar.cc/150?img=2"
+        },
+        {
+            "id": 3,
+            "name": "Citra Dewi",
+            "position": "HR Specialist",
+            "department": "Human Resources",
+            "email": "citra.dewi@example.com",
+            "salary": 7000000,
+            "photoUrl": "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Dian Purnama",
+            "position": "Marketing Executive",
+            "department": "Marketing",
+            "email": "dian.purnama@example.com",
+            "salary": 6500000,
+            "photoUrl": "https://i.pravatar.cc/150?img=4"
+        },
+        {
+            "id": 5,
+            "name": "Eka Pratama",
+            "position": "Finance Analyst",
+            "department": "Finance",
+            "email": "eka.pratama@example.com",
+            "salary": 9000000,
+            "photoUrl": "https://i.pravatar.cc/150?img=5"
+        }
+    ]
+}
+

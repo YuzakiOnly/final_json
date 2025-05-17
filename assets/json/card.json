@@ -44,7 +44,55 @@
             "email": "eka.pratama@example.com",
             "salary": 9000000,
             "photoUrl": "https://mighty.tools/mockmind-api/content/human/128.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Fajar Nugroho",
+            "position": "UI/UX Designer",
+            "department": "Design",
+            "email": "fajar.nugroho@example.com",
+            "salary": 7500000,
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/122.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Gita Lestari",
+            "position": "QA Engineer",
+            "department": "Quality Assurance",
+            "email": "gita.lestari@example.com",
+            "salary": 7800000,
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/129.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Hendra Wijaya",
+            "position": "DevOps Engineer",
+            "department": "IT",
+            "email": "hendra.wijaya@example.com",
+            "salary": 9500000,
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/112.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Intan Sari",
+            "position": "Business Analyst",
+            "department": "Business",
+            "email": "intan.sari@example.com",
+            "salary": 8800000,
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/117.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Joko Santoso",
+            "position": "IT Support",
+            "department": "IT",
+            "email": "joko.santoso@example.com",
+            "salary": 6000000,
+            "photoUrl": "https://mighty.tools/mockmind-api/content/human/104.jpg"
         }
+        
     ]
-}
 
+    
+    
+}

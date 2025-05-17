@@ -52,7 +52,7 @@
             "department": "Design",
             "email": "fajar.nugroho@example.com",
             "salary": 7500000,
-            "photoUrl": "https://mighty.tools/mockmind-api/content/human/122.jpg"
+            "photoUrl": "https://i.pravatar.cc/150?img=1"
         },
         {
             "id": 7,
@@ -61,7 +61,7 @@
             "department": "Quality Assurance",
             "email": "gita.lestari@example.com",
             "salary": 7800000,
-            "photoUrl": "https://mighty.tools/mockmind-api/content/human/129.jpg"
+            "photoUrl": "https://i.pravatar.cc/150?img=2"
         },
         {
             "id": 8,
@@ -70,7 +70,7 @@
             "department": "IT",
             "email": "hendra.wijaya@example.com",
             "salary": 9500000,
-            "photoUrl": "https://mighty.tools/mockmind-api/content/human/112.jpg"
+            "photoUrl": "https://i.pravatar.cc/150?img=3"
         },
         {
             "id": 9,
@@ -79,7 +79,7 @@
             "department": "Business",
             "email": "intan.sari@example.com",
             "salary": 8800000,
-            "photoUrl": "https://mighty.tools/mockmind-api/content/human/117.jpg"
+            "photoUrl": "https://i.pravatar.cc/150?img=4"
         },
         {
             "id": 10,
@@ -88,7 +88,7 @@
             "department": "IT",
             "email": "joko.santoso@example.com",
             "salary": 6000000,
-            "photoUrl": "https://mighty.tools/mockmind-api/content/human/104.jpg"
+            "photoUrl": "https://i.pravatar.cc/150?img=5"
         }
         
     ]

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
+
 import 'package:flutter/services.dart';
 import 'package:final_json/model/sample.dart';
 import 'detail.dart';
@@ -42,7 +43,7 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: const Text(
             'Card Biodata',
-            style: TextStyle(fontWeight: FontWeight.bold),
+            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),
           ),
           centerTitle: true,
         ),
@@ -61,7 +62,7 @@ class _MyAppState extends State<MyApp> {
                   }
 
                   Profile profileWithId = result!.profile!.firstWhere(
-                    (profile) => profile.id == 7,
+                    (profile) => profile.id == 3,
                     orElse: () => result!.profile!.first,
                   );
 
@@ -107,7 +108,7 @@ class CardUtama extends StatelessWidget {
           children: [
             Card(
               elevation: 0,
-              margin: const EdgeInsets.all(0),
+              margin: const EdgeInsets.all(6),
               shape: const RoundedRectangleBorder(
                 borderRadius: BorderRadius.vertical(top: Radius.circular(12)),
               ),
@@ -116,7 +117,7 @@ class CardUtama extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.all(16),
+                      padding: const EdgeInsets.all(10),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: Image.network(
@@ -148,18 +149,57 @@ class CardUtama extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Nama: ${profile.name}",
-                      style: const TextStyle(
-                          fontSize: 18, fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 8),
-                  Text("Posisi: ${profile.position}",
-                      style: const TextStyle(fontSize: 16)),
-                  Text("Departemen: ${profile.department}",
-                      style: const TextStyle(fontSize: 16)),
-                  Text("Email: ${profile.email}",
-                      style: const TextStyle(fontSize: 16)),
-                  Text("Gaji: Rp${profile.salary}",
-                      style: const TextStyle(fontSize: 16)),
+                  Row(
+                    children: [
+                      const Text(
+                        "Nama :",
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          profile.name,
+                          style: const TextStyle(fontSize: 16),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Text(
+                        "Position :",
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          profile.position,
+                          style: const TextStyle(fontSize: 16),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Text(
+                        "Departemen :",
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          profile.department,
+                          style: const TextStyle(fontSize: 16),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
